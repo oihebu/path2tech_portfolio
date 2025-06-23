@@ -1,0 +1,569 @@
+/*ORIGINAL*/
+
+body {
+    height: 100%;
+    margin:5% 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 1.3em;
+    margin-bottom:0.5em;
+}
+
+a {
+    color: black;
+    font-weight: 400;
+}
+
+a:hover {
+    transition: all 0.3s ease 0s;
+    color: #b1a8df;
+
+}
+
+mark {
+    background-color:#ead3ef;
+    padding:.5%;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color:black;
+}
+
+h1 a {
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 650;
+    text-decoration: none;
+    color:black;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+    font-weight:650;
+    color:black;
+    text-decoration: none;
+
+}
+
+h2 a {
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+    font-weight:650;
+    color:black;
+    text-decoration: none;
+
+}
+
+h3 {
+
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    font-weight:650;
+    color:black;
+    text-decoration: none;
+
+}
+
+h3 a {
+
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    font-weight:650;
+    color:black;
+    text-decoration: none;
+
+}
+
+h4 {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color:black;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+h4 a {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color:black;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+
+
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 350;
+    color:black;
+    text-decoration: none;
+
+}
+
+.logo {
+    color: black;
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    position: relative;
+    height: 70px;
+}
+
+nav.navbar {
+    text-decoration: none;
+    background-color: white;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    padding: 10px 150px 150px;
+
+}
+
+.logo{
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-icons{
+    display: none;
+}
+
+.menu-icons i{
+    color: #000000;
+    font-size: 30px;
+}
+
+#top {
+    text-align: left;
+    padding: 5px 150px;
+    margin-top: 5%;
+    margin-bottom: 200px;
+
+}
+
+.top_image {
+    float: right;
+    margin-top: -40px;
+    width: 405px;
+}
+
+.main_body {
+    margin-left:4%;
+    margin-right:4% ;
+    margin-bottom:10% ;
+
+}
+
+#work {
+    margin-bottom: 15%;
+}
+.work_bar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 7%;
+
+
+}
+
+.work_ex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 7%; 
+
+    grid-template-areas:
+      "row1  row1  row1"
+      "row2  row2  row2"
+}
+
+
+.work_image {
+    width:100%;
+}
+
+#about {
+    margin-bottom: 15%;
+}
+
+.about_bar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+#about_me_1 {
+    text-align: left;
+    padding: 5px 15px;
+
+}
+
+.about_image1 {
+    float: left;
+    width: 45%;
+}
+
+#about_me_2 {
+    text-align: left;
+    padding: 5px 15px;
+
+}
+
+.about_image2 {
+    float: right;
+    width: 45%;
+}
+
+footer {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 5% ;
+
+
+}
+
+.contact_bar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 7%;
+
+
+}
+
+.contact_links {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:7%;
+    text-decoration: none;
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1300px)	 {
+
+
+    #top {
+    text-align: left;
+    padding: 5px 130px;
+    margin-bottom: 200px;
+
+}
+
+.top_image {
+    float: right;
+    margin-top: -60px;
+    width: 380x;
+}
+    
+
+}
+
+@media (max-width: 1200px)	 {
+
+
+    #top {
+    text-align: center;
+    padding: 5px 130px;
+    margin-bottom: 200px;
+
+}
+
+.top_image {
+    float: none;
+    margin-top: -20px;
+    width: 90%;
+}
+
+nav.navbar {
+    text-decoration: none;
+    background-color: white;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    padding: 10px 150px 150px;
+
+}
+
+nav ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    gap: 0;
+    overflow: hidden;
+}
+nav ul li{
+    padding: 20px;
+    padding-top: 0;
+}
+.menu-icons{
+    display: block;
+}
+#menuList{
+    transition: all 0.5s;
+}
+
+}
+
+@media (max-width: 1000px) {
+
+    body {
+    height: 100%;
+    margin:5% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+
+    }
+
+
+    h1 {
+    font-family: "Merriweather", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color:black;
+    }
+
+    h1 a {
+    font-family: "Merriweather", serif;
+    font-size: 1.5rem;
+    font-weight: 650;
+    text-decoration: none;
+    color:black;   
+    }
+
+
+    nav{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    position: relative;
+    height: 70px;
+}
+
+nav.navbar {
+    text-decoration: none;
+    background-color: white;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    padding: 10px 70px 150px;
+
+}
+
+#top {
+    text-align: center;
+    padding: 5px 90px;
+    margin-top: 15%;
+    margin-bottom: 200px;
+
+}
+
+#work {
+    margin-bottom: 35%;
+}
+
+    .work_ex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 7%; 
+    text-align: center;
+
+    grid-template-areas:
+      "row1  row1"
+      "row2  row2"
+      "row3  row3"
+}
+
+#about_me_1 {
+    text-align: center;
+    padding: 5px 15px;
+
+}
+
+.about_image1 {
+    float: none;
+    width: 90%;
+}
+
+#about_me_2 {
+    text-align: center;
+    padding: 5px 15px;
+
+}
+
+.about_image2 {
+    float: none;
+    width: 90%;
+}
+
+}
+
+@media (max-width: 650px) {
+
+    p {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 350;
+    line-height: 1.5rem;
+    margin-bottom:0.5em;
+}
+
+    h4 {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 550;
+    color:black;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+h4 a {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    color:black;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#work {
+    margin-bottom: 105%;
+}
+
+    .work_ex {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 3%; 
+
+    grid-template-areas:
+      "row1"
+      "row2"
+      "row3"
+      "row4"
+      "row5"
+      "row6"
+}
+
+footer {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 5% ;
+    text-align: center;
+
+}
+
+}
+
+@media (min-width: 1800px) {
+
+    /*ORIGINAL*/
+
+body {
+    height: 100%;
+    margin:5% 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+p {
+    color: yellow;
+}
+
+
+nav {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    /* position: relative; */
+    height: 30px;
+}
+
+nav.navbar {
+    text-decoration: none;
+    background-color: white;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    padding: 10px 20% 150px;
+
+}
+
+#top {
+    text-align: left;
+    padding: 5px 20%;
+    margin-bottom: 200px;
+
+}
+
+.top_image {
+    float: right;
+    margin-top: -60px;
+    width: 435px;
+}
+
+.main_body {
+    margin-left:8%;
+    margin-right:8% ;
+    margin-bottom:10% ;
+
+}
+
+}
+
